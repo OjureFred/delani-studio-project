@@ -1,0 +1,15 @@
+.jumbotron {
+    text-align: center;
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    
+}
+.about-us{
+    text-align: center;
+}
+.mid-section {
+    text-align: center;
+    background-image: url("../assets/backgrounds/c_img.jpg");
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-size: 300px 100px;
+}
