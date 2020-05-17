@@ -1,6 +1,9 @@
 $(document).ready(function(){
 //Toggle between image and description for what we do section
-
+$(".txtovc").click(function() {
+    $(".overlay-text").show();
+    });
+    
 
 //Hover effet for portfolio section
 $(".imghov").mouseover(function() {
