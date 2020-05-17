@@ -3,6 +3,11 @@ $(document).ready(function(){
 
 
 //Hover effet for portfolio section
+$(".imghov").mouseover(function() {
+$(".overlay-card").show();
+}).mouseout(function(){
+$(".overlay-card").hide();
+});
 
 
 //Manage user form with mail chimp
