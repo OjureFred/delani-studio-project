@@ -3,6 +3,9 @@ body {
   line-height: 0;
 }
 div {
+  
+  align-self: center;
+  width: 95%;
   padding: 10px 10px 10px 10px;
 }
 .jumbotron {
