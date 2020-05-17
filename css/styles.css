@@ -2,11 +2,15 @@ body {
   margin: 20px 20px 20px 20px;
   line-height: 0;
 }
-div {
-  
+div {  
   align-self: center;
   width: 95%;
   padding: 10px 10px 10px 10px;
+}
+.form-control {
+  opacity: 0.5;
+  border: #FFF;
+  color: #FFF;
 }
 .jumbotron {
   text-align: center;
