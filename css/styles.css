@@ -2,13 +2,14 @@ body {
   margin: 20px 20px 20px 20px;
   line-height: 0;
 }
-div {  
+div { 
+  text-align: center; 
   align-self: center;
   width: 95%;
   padding: 10px 10px 10px 10px;
 }
 .form-control {
-  opacity: 0.5;
+  opacity: 0.1;
   border: #FFF;
   color: #FFF;
 }
