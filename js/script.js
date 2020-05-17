@@ -1,8 +1,10 @@
 $(document).ready(function(){
 //Toggle between image and description for what we do section
-$(".txtovc").click(function() {
-    $(".overlay-text").show();
+$(".txtovc").click(function(e) {
+    e.preventDefault();
+    $(".overlay-text").toggle();
     });
+    
     
 
 //Hover effet for portfolio section
