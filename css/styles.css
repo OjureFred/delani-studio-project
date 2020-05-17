@@ -36,7 +36,7 @@ div {
   top:50%;
   left: 50%;
   height: 93%;
-  width: 93%;
+  width: 100%;
   opacity: 0;
   transition: .5s ease;
 }
