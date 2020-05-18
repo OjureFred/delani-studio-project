@@ -2,7 +2,7 @@ $(document).ready(function(e){
 //Toggle between image and description for what we do section
 $(".txtovc").click(function(e) {
     e.preventDefault();
-    $(".overlay-text").toggle();
+    $(this).find(".overlay-text").toggle();
     });
     
     
