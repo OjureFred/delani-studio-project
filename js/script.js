@@ -3,6 +3,7 @@ $(document).ready(function(e){
 $(".txtovc").click(function(e) {
     e.preventDefault();
     $(this).find(".overlay-text").toggle();
+    $(this).find(".container").toggle();
     });
     
     
