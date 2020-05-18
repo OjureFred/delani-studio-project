@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function(e){
 //Toggle between image and description for what we do section
 $(".txtovc").click(function(e) {
     e.preventDefault();
@@ -9,9 +9,9 @@ $(".txtovc").click(function(e) {
 
 //Hover effet for portfolio section
 $(".imghov").mouseover(function() {
-$(".overlay-card").show();
+$(this).find(".overlay-card").show();
 }).mouseout(function(){
-$(".overlay-card").hide();
+$(this).find(".overlay-card").hide();
 });
 
 
