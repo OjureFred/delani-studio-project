@@ -10,10 +10,13 @@
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
         <script src="js/bootstrap.js"></script>
         <script src="js/jquery-3.5.0.js"></script>
+        <script src="js/jquery-mailchimp.min.js"></script>
         <script src="js/script.js"></script>
     </head>
 
     <body>
+
+      <!-------------------JUMBOTRON FOR HEADER--------------->
         <div class="jumbotron">
             <br>
             <br>
@@ -52,6 +55,8 @@
             <br>          
             
         </div>
+
+        <!---------WHAT WE DO SECTION--------->
         
         <div class="container-fluid">
           <h2>WHAT WE DO</h2>
@@ -235,31 +240,40 @@
             </div>
           </div>
 
+          <!--------------------MAILCHIMP INTEGRATION---------------->
+
           <div class="user-form">
             <h2>CONTACT US</h2>
 
-            <form>
+            <form ID="subscribe-form">
               <div class="row">
-                <div class="col">
-                  <input type="text" class="form-control" placeholder="Name.....">
+                <div class="col mc-form-group-FULLNAME">
+                  <input type="text" name="FULLNAME" class="form-control" placeholder="Name.....">
                 </div>
-                <div class="col">
-                  <input type="text" class="form-control" placeholder="Email....">
+                <div class="col mc-form-group-EMAIL">
+                  <input type="text" name="EMAIL" class="form-control" placeholder="Email....">
                 </div>
                 
               </div>
               <div class="row">
-                  <div class="col">
+                  <div class="col mc-form-group-MESSAGE">
                     <textarea class="form-control" rows="15" cols="180">
-                      
+                 
                       </textarea>
                   </div>
                 </div>
+
             </form>
+            <button id="submit-form">Submit</button>
           </div>
+
+  <!----------------SOCIAL MEDIA----------->
+
           <div class="social-media">
             <div class="row">
               <div class="col-lg-1">
+
+              
                 
               </div>
               <div class="col-lg-1">
