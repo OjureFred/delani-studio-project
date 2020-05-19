@@ -28,16 +28,6 @@ $('#subscribe-form').MailChimpForm({
       }
     });
 
-//Default options
-$('#subscribe-form').MailChimpForm({
-    url: $form.attr('action'),
-    fields: '',
-    inputSelector: 'input',
-    errorSelector: '.mc-error',
-    submitSelector: '',
-    customMessages: {}
-    });
-
 //Callback functions
 $('#subscribe-form').MailChimpForm({
     onFail: (message) => {
